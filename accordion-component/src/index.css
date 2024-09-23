@@ -1,0 +1,27 @@
+.accordion {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.accordion-header {
+  background-color: #f7f7f7;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-header h3 {
+  margin: 0;
+}
+
+.accordion-content {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.accordion-header span {
+  font-size: 18px;
+}
